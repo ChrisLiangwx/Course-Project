@@ -1,0 +1,5 @@
+﻿  task1.cpp
+E:\Projects\Course Project\APPL DATA STR & ALG\M5_Cpp\Recursion&Backtracking\task1.h(15,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  task2.cpp
+  正在生成代码...
+  Recursion&Backtracking.vcxproj -> E:\Projects\Course Project\APPL DATA STR & ALG\M5_Cpp\Recursion&Backtracking\x64\Debug\Recursion&Backtracking.exe
