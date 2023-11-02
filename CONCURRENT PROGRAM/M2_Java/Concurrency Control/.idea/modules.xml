@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BridgeModule/BridgeModule.iml" filepath="$PROJECT_DIR$/BridgeModule/BridgeModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Concurrency Control.iml" filepath="$PROJECT_DIR$/Concurrency Control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DisplayModule/DisplayModule.iml" filepath="$PROJECT_DIR$/DisplayModule/DisplayModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bridge/m1/m1.iml" filepath="$PROJECT_DIR$/Bridge/m1/m1.iml" />
+    </modules>
+  </component>
+</project>

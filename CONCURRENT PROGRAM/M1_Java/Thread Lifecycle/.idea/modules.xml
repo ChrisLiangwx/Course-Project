@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Multi-threaded Hello World.iml" filepath="$PROJECT_DIR$/Multi-threaded Hello World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread Lifecycle.iml" filepath="$PROJECT_DIR$/Thread Lifecycle.iml" />
     </modules>
   </component>
 </project>
