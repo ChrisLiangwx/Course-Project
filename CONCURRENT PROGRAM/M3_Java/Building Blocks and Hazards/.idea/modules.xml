@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bank Accounts/Bank Accounts.iml" filepath="$PROJECT_DIR$/Bank Accounts/Bank Accounts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Building Blocks and Hazards.iml" filepath="$PROJECT_DIR$/Building Blocks and Hazards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Display Take 2/Display Take 2.iml" filepath="$PROJECT_DIR$/Display Take 2/Display Take 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/HashMap/HashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Message Queue/Message Queue.iml" filepath="$PROJECT_DIR$/Message Queue/Message Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vector/Vector.iml" filepath="$PROJECT_DIR$/Vector/Vector.iml" />
+    </modules>
+  </component>
+</project>

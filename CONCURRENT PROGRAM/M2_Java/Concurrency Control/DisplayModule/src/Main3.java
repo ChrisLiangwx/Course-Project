@@ -16,13 +16,22 @@ public class Main3 {
        try{
            while(true){
                //synchronized (lock){
-                   Thread.sleep(1000);
+                   int randomNum = (int) (500 + Math.random() * 501);
+                   Thread.sleep(randomNum);
                    d.addRow("AAAAAAAAAAAA");
-                   Thread.sleep(1000);
+
+
+                   randomNum = (int) (500 + Math.random() * 501);
+                   Thread.sleep(randomNum);
                    d.addRow("BBBBBBBBBBBB");
-                    Thread.sleep(1000);
+
+                   randomNum = (int) (500 + Math.random() * 501);
+                   Thread.sleep(randomNum);
                    d.addRow("CCCCCCCCCCCC");
-                    Thread.sleep(1000);
+
+
+                   randomNum = (int) (500 + Math.random() * 501);
+                   Thread.sleep(randomNum);
                    d.addRow("DDDDDDDDDDDD");
                //}
 
@@ -39,9 +48,12 @@ public class Main3 {
         try{
             while(true){
                 //synchronized (lock){
-                    Thread.sleep(5000);
+                    int randomNum = (int) (3000 + Math.random() * 2001);
+                    Thread.sleep(randomNum);
                     d.deleteRow(0);
-                    Thread.sleep(3000);
+
+                    randomNum = (int) (2000 + Math.random() * 1001);
+                    Thread.sleep(randomNum);
                     d.deleteRow(2);
                 //}
 
