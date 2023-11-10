@@ -91,7 +91,7 @@ public class HashMapTest {
 	for (int i = 0; i < 100; i++) {
 	    addPerson();
 	    try {
-		Thread.sleep(500);
+		Thread.sleep(1000);
 	    } catch (InterruptedException e) {
 			//stop and exit thread
 			Thread.currentThread().interrupt();

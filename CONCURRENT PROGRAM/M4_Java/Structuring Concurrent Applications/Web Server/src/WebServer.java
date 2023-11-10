@@ -12,6 +12,7 @@ import java.net.Socket;
 import java.util.Date;
 import java.util.StringTokenizer;
 import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 // The tutorial can be found just here on the SSaurel's Blog : 
@@ -65,7 +66,9 @@ public class WebServer {
 
 		} catch (IOException e) {
 			System.err.println("Server Connection error : " + e.getMessage());
-		}
+		} finally {
+				((ExecutorService) exec).shutdown();
+			}
     }
 
     public void handleRequest() {

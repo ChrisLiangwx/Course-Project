@@ -10,7 +10,7 @@ public class JDisplay2 implements HighLevelDisplay {
 	clear();
     }
 
-    private  void updateRow(int row, String str) {
+    private void updateRow(int row, String str) {
 	text[row] = str;
 	if (row < d.getRows()) {
 	    for(int i=0; i < str.length(); i++)

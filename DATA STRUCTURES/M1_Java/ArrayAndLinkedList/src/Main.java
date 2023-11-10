@@ -2,9 +2,9 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-       User user1 =  new User("Weixiao", "3020 Park Newport", "1111", 2000);
-       User user2 = new User("Mohan", "3020 Park Newport", "2222", 1500);
-       User user3 = new User("Shangdong", "3020 Park Newport", "3333", 3500);
+       User user1 =  new User("Wx", "Newport Beach", "1111", 2000);
+       User user2 = new User("Mh", "Newport Beach", "2222", 1500);
+       User user3 = new User("Sd", "Newport Beach", "3333", 3500);
        User user4 = new User("Tom", "UCI", "4444", 1000);
        Bank bankOfOrangeCounty = new Bank();
 
@@ -48,7 +48,7 @@ public class Main {
 //
 //       System.out.println("-----------------");
 //       //merge user account
-//       User user11 =  new User("Shangdong", "3020 Park Newport", "3333", 3500);
+//       User user11 =  new User("Sd", "Newport Beach", "3333", 3500);
 //       System.out.println("merge user account:");
 //       bankOfOrangeCounty.addUser(user11);
 //       System.out.println("before merge:");
