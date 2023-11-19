@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebMail Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        .navbar div {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .header-icon {
+            margin-right: 10px;
+            height: 60px;
+            width: 60px;
+            border-radius: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            padding: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .main-content {
+            flex-basis: 50%;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 44px;
+            color: #333;
+        }
+
+        .main-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+<header class = "navbar">
+    <div><img class = "header-icon" alt="This is a icon of a mail" title="icon of mail" src="./asset/images/mail_icon.png"/>WebMail</div>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./SignIn.html">Sign in</a></li>
+            <li><a href="Register.html">Register</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="main-content">
+        <img src="./asset/images/mail_picture.png" alt="This is a picture of mail" class="main-image">
+    </div>
+    <div class="main-content">
+        <p>Welcome to WebMail</p>
+    </div>
+</main>
+</body>
+</html>
+
