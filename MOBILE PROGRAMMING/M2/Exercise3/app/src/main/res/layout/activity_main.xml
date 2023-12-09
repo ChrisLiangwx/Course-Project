@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigurationActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/QuestionsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/questions_list" />
+
+    <Button
+        android:id="@+id/ChooseMulti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_multi"
+        android:onClick="chooseMulti"/>
+
+    <Button
+        android:id="@+id/ChooseFill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_fill"
+        android:onClick="chooseFill"/>
+
+<!--    configuration-->
+    <Switch
+        android:id="@+id/timerSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Timer" />
+
+    <EditText
+        android:id="@+id/timeLimitEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set Time Limit"
+        android:inputType="number" />
+
+    <RadioButton
+        android:id="@+id/useImageButtonRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Image Button to Submit" />
+</LinearLayout>

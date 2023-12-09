@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MultipleChoiceQuestionActivity">
+
+
+    <!--    tools:context=".MultipleChoiceQuestionActivity">-->
+    <!--    Timers-->
+        <TextView
+            android:id="@+id/timerA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:text="@string/timerA" />
+
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/setTimerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:layout_gravity="top|end"
+            android:hint="@string/setTimerText" />
+
+        <ImageButton
+            android:id="@+id/setTimerButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/alarm_clock_image"
+            android:contentDescription="@string/set_timer_description"
+            android:layout_gravity="top|end"
+            android:onClick="onSetTimeClicked"/>
+
+
+        <Switch
+            android:id="@+id/timerSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:text="@string/timerSwitch"
+            android:onClick="onSwitchClicked"/>
+
+
+    <!--multiple-choice question-->
+
+
+        <TextView
+            android:id="@+id/MultipleChoiceQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:text="@string/multi_choice_question1" />
+
+        <Spinner
+            android:id="@+id/Options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:entries="@array/options"/>
+
+        <TextView
+            android:id="@+id/MultipleChoiceQuestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:text="@string/multi_choice_question2" />
+
+
+        <CheckBox
+            android:id="@+id/Option2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:text="@string/Option2_1" />
+
+        <CheckBox
+            android:id="@+id/Option2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:text="@string/Option2_2" />
+
+        <CheckBox
+            android:id="@+id/Option2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:text="@string/Option2_3" />
+
+        <CheckBox
+            android:id="@+id/Option2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:text="@string/Option2_4" />
+
+        <CheckBox
+            android:id="@+id/Option2_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:text="@string/Option2_5" />
+
+        <CheckBox
+            android:id="@+id/Option2_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:text="@string/Option2_6" />
+
+        <CheckBox
+            android:id="@+id/Option2_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:text="@string/Option2_7" />
+
+        <CheckBox
+            android:id="@+id/Option2_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:text="@string/Option2_8" />
+
+
+
+    <!--submit answer-->
+        <Button
+            android:id="@+id/SubmitMulti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button"
+            android:padding="16dp"
+            android:onClick="submitMulti"
+            android:layout_gravity="bottom|end"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

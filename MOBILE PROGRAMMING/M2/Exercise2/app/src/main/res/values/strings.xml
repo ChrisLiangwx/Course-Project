@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Exercise1</string>
+    <string name="questions_list">Questions List:</string>
+    <string name="choose_multi">Multi-Choice Question</string>
+    <string name="choose_fill">Fill-in-the-Blank Question</string>
+    <string name="multi_choice_question1">The primitive data types in Java include()</string>
+    <string-array name="options">
+        <item>String</item>
+        <item>int</item>
+        <item>ArrayList</item>
+        <item>LinkedList</item>
+    </string-array>
+
+    <string name="fill_in_the_blank_question1">In Java, the keyword ________ is used to define a variable that can store decimal numbers.</string>
+    <string name="answer1">Please type in the answer</string>
+    <string name="button">Submit</string>
+
+    <string name="chooser">Get Result Using...</string>
+    <string name="result_activity_label">Result</string>
+    <string name="timerA">TimerA</string>
+    <string name="timerB">TimerB</string>
+</resources>
